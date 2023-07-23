@@ -81,6 +81,7 @@ p{
     border-radius: 5px;
     background-color: var(--primary-color);
     position: absolute;
+    right: 5px;
     margin-top: 50px;
     padding-top: 30px;
 }
@@ -130,6 +131,42 @@ p{
     .card-price-button{
        left: 105px;
     }
-    .attribution{
-    }
   }
+  @media all and (max-width: 910px){
+    .card{
+        position:relative;
+        left: 200px;
+    }
+}
+@media all and (max-width: 740px){
+    .card{
+        position:relative;
+        left: 100px;
+    }
+}
+@media all and (max-width: 650px){
+    .card{
+        position:relative;
+        left: 50px;
+    }
+}  
+@media all and (max-width: 590px){
+    .card{
+        position:relative;
+        left:30px;
+    }
+}  
+@media all and (max-width: 540px){
+    .card{
+        position:relative;
+        left:1px;
+    }
+}  
+@media all and (max-width: 540px){
+    .card{
+        margin: 0;
+        padding: 0;
+        position:relative;
+        left:-3px;
+    }
+}  
