@@ -18,11 +18,12 @@ a{
     text-decoration: none;
 }
 .card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 520px;
     height: 405px;
-    position: relative;
-    left: 400px;
-    top: 250px;
     border-radius: 10px;
     background-color: var(--white);
 }
@@ -107,9 +108,6 @@ p{
     .card{
         width: 330px;
         height: 570px;
-        left: 20px;
-        top: initial;
-        top: 100px;
     }
     .card-header{
         width: 300px;
@@ -132,41 +130,3 @@ p{
        left: 105px;
     }
   }
-  @media all and (max-width: 910px){
-    .card{
-        position:relative;
-        left: 200px;
-    }
-}
-@media all and (max-width: 740px){
-    .card{
-        position:relative;
-        left: 100px;
-    }
-}
-@media all and (max-width: 650px){
-    .card{
-        position:relative;
-        left: 50px;
-    }
-}  
-@media all and (max-width: 590px){
-    .card{
-        position:relative;
-        left:30px;
-    }
-}  
-@media all and (max-width: 540px){
-    .card{
-        position:relative;
-        left:1px;
-    }
-}  
-@media all and (max-width: 540px){
-    .card{
-        margin: 0;
-        padding: 0;
-        position:relative;
-        left:-3px;
-    }
-}  
